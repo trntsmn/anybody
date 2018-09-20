@@ -1,0 +1,89 @@
+body {
+  background-color: #000;
+  font-size: 100%;
+  background-image: url("http://highway18.com/_themes/highway-new/starbrite.gif"); }
+
+.HomePage {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*Verticle Stack*/ }
+  .HomePage .stacked {
+    flex-direction: row-reverse;
+    display: flex; }
+  .HomePage h1, .HomePage h2, .HomePage h3, .HomePage h4, .HomePage h5, .HomePage h6, .HomePage p, .HomePage body {
+    font-family: "Montserrat", sans-serif; }
+  .HomePage h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12vw;
+    margin-bottom: 25px;
+    color: #fff; }
+  .HomePage h4 {
+    line-height: 1;
+    font-size: 3.7vw;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0; }
+  .HomePage h4 > span {
+    font-size: 1.25vw;
+    position: absolute; }
+  .HomePage div.rel {
+    margin-bottom: 25px;
+    width: 100%;
+    height: 20px; }
+  .HomePage hr {
+    width: 75%;
+    border: none;
+    border-top: 1px solid #ffd73a; }
+  .HomePage svg {
+    width: 13px;
+    fill: #ffd73a;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -19px;
+    background-color: #000;
+    padding: 4px; }
+  .HomePage ul {
+    text-align: right;
+    line-height: 1.5;
+    margin: 0 20px 0 0;
+    font-size: 1.2vw;
+    color: #fff;
+    list-style-type: none; }
+  .HomePage blockquote {
+    margin-top: 15px;
+    width: 24vw;
+    display: block;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1.75; }
+  .HomePage a {
+    color: #fff;
+    background: linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#ffd73a, #ffd73a);
+    background-size: .1vw 1px, .1vw 1px, 1px 1px;
+    background-repeat: no-repeat,no-repeat,repeat-x;
+    text-shadow: 0 0.1vw #000, 0.1vw 0.1vw #000, -0.1vw 0.1vw #000, 0 0vw #000, -0.1vw 0vw #000, 0 -0.1vw #000, 0.1vw -0.1vw #000, -0.1vw -0.1vw #000;
+    background-position: 0 95%,100% 95%,0 90%;
+    text-decoration: none; }
+  .HomePage a:hover {
+    background: none; }
+  .HomePage blockquote {
+    display: none; }
+  @media (max-width: 1200px) {
+    .HomePage .stacked {
+      justify-content: center;
+      flex-wrap: wrap; }
+    .HomePage ul {
+      font-size: 20px;
+      width: 100%;
+      margin-top: 20px;
+      text-align: center; }
+    .HomePage h4 {
+      font-size: 8vw; } }

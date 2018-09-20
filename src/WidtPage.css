@@ -1,0 +1,13 @@
+.WidtPage {
+  background: url("http://i62.tinypic.com/2a0mcyf.jpg");
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .WidtPage h1 {
+    color: #f00; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+.WidtPage > section {
+  padding-top: 128px; }
