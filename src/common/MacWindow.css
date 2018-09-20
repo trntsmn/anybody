@@ -43,6 +43,8 @@
         height: 100%;
         border: 1px solid black;
         display: block; }
+      .mac-window .title-bar .close .inner.closed {
+        background-color: #777; }
     .mac-window .title-bar .title {
       display: inline;
       position: absolute;

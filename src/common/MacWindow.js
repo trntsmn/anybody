@@ -35,7 +35,7 @@ class MacWindow extends Component {
 									<div className="bar"></div>
 									<div className="bar"></div>
 								</div>
-								<a onClick={this.toggle} className="close"><span className="inner"></span></a>
+								<a onClick={this.toggle} className="close"><span className={this.state.display ? "inner" : "inner closed"}></span></a>
 								<div className="title">{title}</div>
 							</div>
 							{this.state.display &&
