@@ -15,7 +15,7 @@ body {
   .HomePage .stacked {
     flex-direction: row-reverse;
     display: flex; }
-  .HomePage h1, .HomePage h2, .HomePage h3, .HomePage h4, .HomePage h5, .HomePage h6, .HomePage p, .HomePage body {
+  .HomePage h1, .HomePage h2, .HomePage h3, .HomePage h4, .HomePage h5, .HomePage h6, .HomePage p, .HomePage body, .HomePage li {
     font-family: "Montserrat", sans-serif; }
   .HomePage h1 {
     font-weight: 900;
@@ -42,7 +42,7 @@ body {
     border: none;
     border-top: 1px solid #ffd73a; }
   .HomePage svg {
-    width: 13px;
+    width: 20px;
     fill: #ffd73a;
     position: absolute;
     left: 50%;
